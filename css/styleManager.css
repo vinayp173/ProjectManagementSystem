@@ -1,0 +1,98 @@
+ body{
+   display: relative;
+   font-size: 100%;
+   background-color:white;
+   font-family: 'Roboto', sans-serif;
+}
+.element-main {
+    background: #fff;
+    border:solid lightgrey;
+	border-radius: 5px;
+	
+	width: 310px;
+	position: relative;
+    padding: 0.5em 0.5em;
+	margin: 0;
+}
+.element-main h1 {
+    text-align: center;
+    font-size: 1.3em;
+    color:#0086E5;
+    font-weight: 700;
+	margin-bottom :20px;
+}
+.element-main input[type="text"] {
+    font-size: 1em;
+    color: #404040;
+    padding: 1em 0.5em;
+    display: block;
+    width: 95%;
+	height: 34px;
+    outline: 5px solid #eff4f7;
+    margin-bottom: 1em;
+    text-align:center;
+    border: 1px solid #B9B9B9;
+	border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+	border-radius: 2px;
+}
+.element-main input[type="submit"] {
+    font-size: 0.9em;
+    color: #fff;
+    background:#0086E5;
+    width: 75%;
+    padding: 0.8em 0.5em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 3px solid #045B99;
+    display: block;
+    margin: 1.5em auto 0;
+}
+.element-main input[type="submit"]:hover{
+    background:#005999;
+    border-bottom: 3px solid #2F2F2F;  
+    transition: 1s all;
+	font-size:1.2em;
+    width: 90%;
+}
+.element {
+  margin: auto;
+  width: 640px;
+}
+.sa{
+	padding:none;
+	border:solid black;
+	border:none;
+	bottom-border:none;
+	width:60%
+	
+}
+.sa tr:hover{
+	background-color:white;
+}
+.sa input[type="submit"]{
+	margin-top:20px;
+	
+	border:none;
+	color:white;
+	margin-left:180px;
+	background-color:steelblue;
+	border-radius:40px;
+	width:23%;
+	height:5%;
+	font-size:15px;
+}
+.sa button{
+	margin-top:20px;
+	
+	border:none;
+	color:white;
+	margin-left:350px;
+	background-color:steelblue;
+	border-radius:40px;
+	width:30%;
+	height:5%;
+	font-size:15px;
+}
+

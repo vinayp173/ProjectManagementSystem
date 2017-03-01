@@ -1,0 +1,36 @@
+
+.sa{
+	padding:none;
+	border:solid black;
+	border:none;
+	bottom-border:none;
+	width:50%
+	
+}
+.sa tr:hover{
+	background-color:white;
+}
+.sa input[type="submit"]{
+	margin-top:20px;
+	
+	border:none;
+	color:white;
+	margin-left:280px;
+	background-color:steelblue;
+	border-radius:40px;
+	width:23%;
+	height:5%;
+	font-size:15px;
+}
+.sa button{
+	margin-top:20px;
+	border:none;
+	color:white;
+	margin-left:250px;
+	background-color:steelblue;
+	border-radius:40px;
+	width:30%;
+	height:5%;
+	font-size:15px;
+}
+
